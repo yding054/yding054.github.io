@@ -1,481 +1,308 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
 
-<head>
-  <title>Project Title</title>
-  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/menu.js"></script>
-  <style>
-    .menu-index {
-      color: rgb(255, 255, 255) !important;
-      opacity: 1 !important;
-      font-weight: 700 !important;
-    }
-  </style>
-</head>
 
-<body>
-  <div class="menu-container"></div>
-  <div class="content-container">
-    <div class="content">
-      <div class="content-table flex-column">
-        <!--Start Intro-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <img class="image" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-column">
-            <p class="text text-large">
-              <a target="_blank" href="javascript:void(0)">Author 1</a>, author1 (at) cs.cmu.edu<br>
-              <a target="_blank" href="javascript:void(0)">Author 2</a>, author2 (at) cs.cmu.edu<br>
-              <a target="_blank" href="javascript:void(0)">Author 3</a>, author3 (at) cs.cmu.edu<br>
-              <a target="_blank" href="javascript:void(0)">Laboratory</a><br>
-              <a target="_blank" href="javascript:void(0)">Institute</a><br>
-              <a target="_blank" href="javascript:void(0)">Organization</a><br>
-              <a target="_blank" href="javascript:void(0)">Street Address</a><br>
-              <a target="_blank" href="javascript:void(0)">City, State, Country</a>
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text add-top-margin">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
-              sapien ut libero venenatis faucibus. Nullam quis ante.
-            </p>
-          </div>
-        </div>
-        <!--End Intro-->
-        <!--Start Text Only-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text Only</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <h3>Subsection Title</h3>
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aenean commodo ligula eget dolor.</li>
-              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </li>
-              <ul>
-                <li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</li>
-                <li>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</li>
-                <li>Nullam dictum felis eu pede mollis pretium.</li>
-              </ul>
-              <li>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </li>
-              <li>Nulla consequat massa quis enim.</li>
-            </ul>
-            <h3>Subsection Title</h3>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <!--End Text Only-->
-        <!--Start Text with Buttons-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Buttons and Inputs</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <div class="control-group">
-              <button class="custom-button">Default</button>
-              <button class="custom-button custom-button-primary">Primary</button>
-              <button class="custom-button custom-button-danger">Danger</button>
-              <button class="custom-button custom-button-info">Info</button>
-              <button class="custom-button" disabled>Disabled</button>
-              <a class="custom-button" target="_blank" href="https://github.com/yenchiah/project-website-template" target="_blank">Hyperlink</a>
-              <button class="custom-button custom-button-primary stretch-on-mobile">Stretch on Mobile</button>
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Yifan Ding</title>
+        <style>
+         .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+        </style>
+       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                     
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#skills">Projects</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="music.html">Music</a></li>
+                                <!-- <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="page2.html">Test</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#resume">Resume</a></li> -->
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+<!-- update -->
+        <!--========== SLIDER ==========-->
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="./img/background.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title">Yifan  <br/> Ding</h1>
+                            <p class="promo-block-text">Graduate Student Researcher</p>
+                                <!-- &amp; Something </p> -->
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/yifan.ding.5201" target="_blank" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://github.com/yding054" target="_blank" class="social-icons"><i class="icon-social-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/yifan-ding-20777a18a/"  target="_blank" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/yifan.ding.5201/"  target="_blank" class="social-icons"><i class="icon-social-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// end row -->
             </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/home.png"></button>
-              <button class="custom-button-flat" disabled><img src="img/home.png"></button>
-              <button class="custom-button-flat small"><img src="img/home.png"></button>
-              <button class="custom-button-flat large"><img src="img/home.png"></button>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <!-- <h2 class="margin-b-0">About Me</h2> -->
+                            <p></p>
+
+                            <p> <img src="./img/Headshot.jpg" alt="A headshot of Chelsea" class="image-me" width="350px" height="350px"> </p>
+                           
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <br>
+
+                              <p class="text add-top-margin">
+                                Yifan obtained B.E. in Environmental Science and Engineering Department from Huazhong University of Science and Technology in 2018.
+                              </p>
+                                        
+                            
+
+
+                    </div>
+                </div>
+                <!--// end row -->
             </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/calendar.png"></button>
-              <button class="custom-button-flat"><img src="img/play.png"></button>
-              <button class="custom-button-flat"><img src="img/pause.png"></button>
-              <button class="custom-button-flat"><img src="img/stop.png"></button>
-              <button class="custom-button-flat"><img src="img/terrain.png"></button>
-              <button class="custom-button-flat"><img src="img/close.png"></button>
-              <button class="custom-button-flat"><img src="img/collection.png"></button>
-              <button class="custom-button-flat"><img src="img/next.png"></button>
-              <button class="custom-button-flat"><img src="img/back.png"></button>
-              <button class="custom-button-flat"><img src="img/setting.png"></button>
-              <a class="custom-button-flat" href="https://github.com/yenchiah/project-website-template" target="_blank">
-                <img src="img/link.png">
-              </a>
+        </div>
+        <!-- End About -->
+
+
+    <!-- Projects -->
+        <div id="skills">
+        	<div class="bg-color-sky-light" data-auto-height="true">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Projects</h2>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                        	<div id="container">
+                             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/RYDDkt2aRI0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              </div>
+                            <div id="container">
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/xQ0SGroZSyg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              </div>
+                            <div id="container">
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ6RB1oQaGs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              </div> -->
+                            
+                              
+                            <!-- Project 1 -->
+                            
+                            <ul>
+                                <li>
+                                    <a href="RLINE.pdf" target="_blank">
+                                    </a><h3><a href="RLINE.pdf" target="_blank"><strong>Using a Line Source Model to Estimate Near-1 Surface Concentration</strong>
+                                    </a>  </h3>
+                                    <p>
+                                    <ul>
+                                        <li>Apply a re-formulation for plume spread</li>
+                                        <li>List all the approximation cases for a finite line source</li>
+                                        <li>Analyze the Idaho Falls field study data</li>
+                                    </ul>
+                                    </p>
+                                </li>
+                            </ul>
+
+                    </div>
+                </div>
+                <!--// end row -->
             </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/home.png"><span>Home</span></button>
-              <button class="custom-button-flat" disabled><img src="img/home.png"><span>Disabled</span></button>
-              <button class="custom-button-flat small"><img src="img/home.png"><span>Small</span></button>
-              <button class="custom-button-flat large"><img src="img/home.png"><span>Large</span></button>
-            </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/calendar.png"><span>Calendar</span></button>
-              <button class="custom-button-flat"><img src="img/play.png"><span>Play</span></button>
-              <button class="custom-button-flat"><img src="img/stop.png"><span>Stop</span></button>
-              <button class="custom-button-flat"><img src="img/terrain.png"><span>Terrain</span></button>
-              <button class="custom-button-flat"><img src="img/close.png"><span>Close</span></button>
-              <button class="custom-button-flat"><img src="img/collection.png"><span>Collection</span></button>
-              <button class="custom-button-flat"><img src="img/next.png"><span>Next</span></button>
-              <button class="custom-button-flat"><img src="img/back.png"><span>Back</span></button>
-              <button class="custom-button-flat"><img src="img/setting.png"><span>Setting</span></button>
-              <a class="custom-button-flat" href="https://github.com/yenchiah/project-website-template" target="_blank">
-                <img src="img/link.png"><span>Hyperlink</span>
-              </a>
-              <button class="custom-button-flat stretch-on-mobile"><img src="img/play.png"><span>Stretch on Mobile</span></button>
-            </div>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
         </div>
-        <div class="flex-row-space-between">
-          <div class="flex-item flex-column">
-            <p class="text badge-text">Large Badge Caption!</p>
-          </div>
-          <div class="flex-item flex-column">
-            <div class="control-group">
-              <a href="javascript:void(0)" target="_blank" class="custom-image-button">
-                <img src="img/app-store-badge.png" width="150">
-              </a>
-              <a href="javascript:void(0)" target="_blank" class="custom-image-button">
-                <img src="img/google-play-badge.png" width="150">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <div class="control-group">
-              <input class="custom-textbox stretch-on-mobile" type="text" placeholder="e.g., 15213,15206">
-              <textarea class="custom-textbox stretch-on-mobile" placeholder="e.g., 15213,15206"></textarea>
-            </div>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Buttons-->
-        <!--Start Text with Images and Image buttons-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Images and Image Buttons (with Max Width)</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row-space-between">
-          <div class="flex-item flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-            <p class="image-caption">Image Caption</p>
-          </div>
-          <div class="flex-item flex-column">
-            <a href="https://github.com/yenchiah/project-website-template" target="_blank" class="image max-width-400">
-              <img src="img/dummay-img.png">
-            </a>
-            <p class="image-caption">Image Button Caption</p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Images and Image buttons-->
-        <!--Start Text around Images-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text around Images (with Max Width)</h2>
-            <hr>
-            <p class="text">
-              <img class="image image-wrap-text max-width-400" src="img/dummay-img.png">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-              amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-              aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
-              voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-              pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-              deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
-              similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-              rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-              impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis.
-            </p>
-          </div>
-        </div>
-        <!--End Text around Images-->
-        <!--Start Text with Images and Videos-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Images and Videos</h2>
-            <hr>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-            <a class="image adaptive-image" style="background-image: url('img/dummay-img-long.png'); min-height: 150px;" href="img/dummay-img-long.png" target="_blank"></a>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-              magnam aliquam quaerat voluptatem. Sed ut perspiciatis unde.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <video preload controls autoplay loop muted playsinline class="image">
-              <source src="https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-              magnam.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch-2 flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-            </p>
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image" src="img/dummay-img.png">
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch-2 flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-            </p>
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <video preload controls autoplay loop muted playsinline class="image">
-              <source src="https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Images and Videos-->
-        <!--Start Text with Gallery-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Gallery (Responsive Size)</h2>
-            <hr>
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-          </div>
-        </div>
-        <div class="gallery">
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Gallery-->
-        <!--Start List of Projects-->
-        <div class="flex-row">
-          <div class="flex-item flex-column full-width">
-            <h2 class="add-top-margin">List of Projects</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <!--End List of Projects-->
-        <!--Start Credits-->
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text text-small text-italic">
-              Credits: <span class="highlight-text">Organization One</span>: Author One and Author Two / <span class="highlight-text">Organization Two</span>: Author Three and Author Four
-            </p>
-          </div>
-        </div>
-        <!--End Credits-->
-      </div>
     </div>
-  </div>
-</body>
+        <!-- End Skills -->
 
+        <!-- Resume -->
+        <!-- <div id="resume">
+       
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Resume</h2>
+                                <p>Last updated 3/31/19 </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                               
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-sky-light wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s"> -->
+                                        <!-- <div class="service-element">
+                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">Resume Download</h3>
+                                            <p class="color-white margin-b-5">Click Here</p>
+                                        </div> -->
+                                    <!-- <a href="./Resume.pdf" target="_blank" class="content-wrapper-link"></a>   -->
+                                        <!-- <a href="./Resume.pdf" target="_blank" class="btn-theme btn-theme-md btn-default-bg ">Download my CV</a>   
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    
+                                </div>
+                            </div> -->
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+        
+        </div>
+        <!-- End Resume -->
+
+        
+                            </div>
+
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                             
+                            </div>
+                        </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Contact</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Address</h5>
+                                    Chung Hall 232<br>
+                                    <a target="_blank" href="https://www.me.ucr.edu/">Mechanical Engineering<br>
+                                    <a target="_blank" href="https://www.ucr.edu/">University of California Riverside<br></a>
+                                    900 University Ave<br>
+                                    Riverside, CA 92521<br>
+                                </div>
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Phone</h5>
+                                    <a href="#">(951) 333-0072</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Email</h5>
+                                    <a href="mailto:yding054@ucr.edu">yding054@ucr.edu </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                </div>
+            </div>
+        </div>
+>
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
